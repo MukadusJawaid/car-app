@@ -12,6 +12,7 @@ import { Col, Container, Row } from "react-bootstrap";
 import Button from "../../components/Button";
 import Heading from "@/components/Heading";
 import AboutSection from "@/components/AboutSection";
+import AOSWrapper from "@/components/ComponentAnimation";
 
 export default function LandingPageView() {
   const router = useRouter();
@@ -19,8 +20,8 @@ export default function LandingPageView() {
   return (
     <main className={classes.mainDiv}>
       <HeroSection
-        title={"Magnus"}
-        stringArray={["Great in Design", " Great in Performance"]}
+        title={"Caropedia"}
+        stringArray={["Learn. Compare. Decide.", "Facts. Insights. Answers."]}
       />
       <Container>
         <Row>
@@ -35,7 +36,9 @@ export default function LandingPageView() {
           </Col>
 
           <Col md={12}>
-            <Heading heading={"About Cars"} />
+            <AOSWrapper duration={600}>
+              <Heading heading={"About Cars"} />
+            </AOSWrapper>
           </Col>
 
           <Col md={12}>
@@ -48,57 +51,74 @@ export default function LandingPageView() {
                   xl={4}
                   key={index}
                 >
-                  <CarCard data={item} onClick={() => router?.push("/cars")} />
+                  <AOSWrapper delay={index * 100}>
+                    <CarCard
+                      data={item}
+                      onClick={() => router?.push("/cars")}
+                    />
+                  </AOSWrapper>
                 </Col>
               ))}
             </Row>
           </Col>
 
           <Col md={12} className="mt-3">
-            <Button
-              variant={"primary"}
-              label="View More"
-              onClick={() => router?.push("/cars")}
-            />
+            <AOSWrapper duration={1000}>
+              <Button
+                variant={"primary"}
+                label="View More"
+                onClick={() => router?.push("/cars")}
+              />
+            </AOSWrapper>
           </Col>
 
           <Col md={12}>
-            <Heading heading={"Blogs"} />
+            <AOSWrapper duration={600}>
+              <Heading heading={"Blogs"} />
+            </AOSWrapper>
           </Col>
           <Col md={12}>
             <Row className="gy-3">
               {BLOGS_DATA?.slice(0, 3)?.map((item, index) => (
                 <Col lg={index === 2 ? { span: 6, offset: 3 } : 6} key={index}>
-                  <BlogCard data={item} />
+                  <AOSWrapper delay={index * 100}>
+                    <BlogCard data={item} />
+                  </AOSWrapper>
                 </Col>
               ))}
             </Row>
           </Col>
           <Col md={12} className="mt-3">
-            <Button
-              variant={"primary-outline"}
-              label="Explore More"
-              onClick={() => router?.push("/cars")}
-            />
+            <AOSWrapper duration={1000}>
+              <Button
+                variant={"primary-outline"}
+                label="Explore More"
+                onClick={() => router?.push("/cars")}
+              />
+            </AOSWrapper>
           </Col>
           <Col md={12}>
-            <Heading heading={"About Us"} />
+            <AOSWrapper duration={600}>
+              <Heading heading={"About Us"} />
+            </AOSWrapper>
           </Col>
           <Col md={12} className="p-0">
-            <AboutSection
-              description={` Magnus is a hub for automotive knowledge, innovation, and
+            <AOSWrapper>
+              <AboutSection
+                description={` Caropedia is a hub for automotive knowledge, innovation, and
             technology. Covering everything from classic automobiles to the
-            latest advancements in electric and autonomous vehicles, Magnus
+            latest advancements in electric and autonomous vehicles, Caropedia
             serves as a comprehensive resource for car enthusiasts, engineers,
             and industry professionals alike. Our platform provides in-depth
             insights into automotive history, engineering breakthroughs,
             performance trends, and future technologies shaping the industry.
             Whether it's the evolution of internal combustion engines, the rise
             of electric mobility, or the impact of AI in self-driving cars,
-            Magnus delivers well-researched content designed to inform and
-            educate. With a commitment to accuracy and detailed analysis, Magnus
+            Caropedia delivers well-researched content designed to inform and
+            educate. With a commitment to accuracy and detailed analysis, Caropedia
             is your go-to destination for all things automotive.`}
-            />
+              />
+            </AOSWrapper>
           </Col>
         </Row>
       </Container>

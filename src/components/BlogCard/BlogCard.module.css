@@ -15,7 +15,8 @@
 .imageDiv {
   position: relative;
   width: 40%;
-  height: 100%;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
 }
 .imageDiv img {
   width: 100%;
@@ -66,21 +67,6 @@
 }
 
 @media screen and (max-width: 480px) {
-  /* .blogDiv {
-    padding: 10px;
-  }
-  .blogDetailDiv {
-    padding: 5px 15px;
-    gap: 4px;
-  }
-  .imageDiv {
-    overflow: hidden;
-    border-radius: 10px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
-  } */
   .blogDetailDiv h5 {
     font-size: 15px;
   }

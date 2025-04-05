@@ -1,11 +1,12 @@
 import { Inter, Outfit } from "next/font/google";
 
+import Footer from "@/components/Footer";
+import SideBar from "@/components/SideBar";
+import "aos/dist/aos.css";
+import "bootstrap/dist/css/bootstrap.min.css";
 import "./css/color.css";
 import "./css/globals.css";
 import "./css/typography.css";
-import "bootstrap/dist/css/bootstrap.min.css";
-import SideBar from "@/components/SideBar";
-import Footer from "@/components/Footer";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -19,7 +20,7 @@ const outfit = Outfit({
 });
 
 export const metadata = {
-  title: "Magnus Car App",
+  title: "Caropedia Web",
   description: "Just a dummy car app for practicing, by Mukadus Jawaid",
 };
 

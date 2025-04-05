@@ -2,8 +2,8 @@
 
 import Image from "next/image";
 import classes from "./SideBar.module.css";
-import React, { useEffect, useState } from "react";
-import { navData } from "@/data/appData";
+import React, { useEffect, useState, useRef } from "react";
+import { navData, pages } from "@/data/appData";
 import { usePathname, useRouter } from "next/navigation";
 import Button from "../Button";
 import { CgClose } from "react-icons/cg";
@@ -13,8 +13,10 @@ export default function SideBar() {
   const pathName = usePathname();
   const _showSideBar = pages?.includes(pathName);
   const accessToken = false;
+
   const [showSideBar, setShowSideBar] = useState(false);
   const [scrolled, setScrolled] = useState(false);
+  const sidebarRef = useRef(null);
 
   const handleSideBar = () => {
     setShowSideBar(!showSideBar);
@@ -32,6 +34,19 @@ export default function SideBar() {
     window.addEventListener("scroll", handleScroll);
     return () => {
       window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
+  useEffect(() => {
+    const handleClickOutside = (e) => {
+      if (sidebarRef.current && !sidebarRef.current.contains(e.target)) {
+        setShowSideBar(false);
+      }
+    };
+
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
     };
   }, []);
 
@@ -55,6 +70,7 @@ export default function SideBar() {
             )}
           </div>
           <div
+            ref={sidebarRef} // Assign ref here
             className={`${classes.sideBarMainDiv} ${
               showSideBar ? classes.show : classes.hide
             }`}
@@ -109,5 +125,3 @@ export default function SideBar() {
     </>
   );
 }
-
-const pages = ["/login", "/signup"];
