@@ -25,3 +25,9 @@
     font-size: 14px;
   }
 }
+@media screen and (max-width: 576px) {
+  .aboutDescription {
+    margin-inline: 10px;
+    font-size: 12px;
+  }
+}

@@ -12,10 +12,6 @@ export const navData = [
     label: "Cars",
     route: "/cars",
   },
-  {
-    label: "Do You Know",
-    route: "/doYouKnow",
-  },
 
   {
     label: "Blogs",
@@ -24,6 +20,10 @@ export const navData = [
   {
     label: "About Us",
     route: "/about",
+  },
+  {
+    label: "Do You Know",
+    route: "/doYouKnow",
   },
 ];
 
