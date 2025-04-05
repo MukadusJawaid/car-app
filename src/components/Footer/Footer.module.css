@@ -1,0 +1,91 @@
+.mainDiv {
+  margin-block-start: 100px;
+  padding-block: 50px;
+  gap: 40px;
+  flex-direction: column;
+  background: var(--primary-color);
+}
+.logoDiv {
+  position: relative;
+  width: 90px;
+  height: 90px;
+}
+
+.title {
+  color: var(--white-color) !important;
+}
+.header,
+.mainDiv,
+.navItems,
+.socialLinkDiv,
+.body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header {
+  gap: 10px;
+}
+.navItems,
+.socialLinkDiv {
+  gap: 30px;
+  flex-wrap: wrap;
+}
+.socialLinkDiv {
+  border-left: 2px solid var(--white-color);
+  padding-left: 20px;
+  margin-left: 20px;
+}
+.navItems h5,
+.socialLinkDiv h5 {
+  cursor: pointer;
+  color: var(--white-color) !important;
+  position: relative;
+  transition: color 0.3s ease-in-out;
+}
+
+.navItems h5::after,
+.socialLinkDiv h5::after {
+  content: "";
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  border-radius: 50px;
+  background-color: var(--white-color);
+  transition: width 0.3s ease-in-out;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+}
+
+.navItems h5:hover::after,
+.socialLinkDiv h5:hover::after {
+  width: 100%;
+}
+.bottomFooter {
+  padding: 20px;
+  text-align: center;
+}
+@media screen and (max-width: 992px) {
+  .logoDiv {
+    width: 50px;
+    height: 50px;
+  }
+  .mainDiv {
+    gap: 20px;
+  }
+}
+@media screen and (max-width: 756px) {
+  .socialLinkDiv {
+    border-left: 0px;
+    padding-left: 0px;
+    margin-left: 0px;
+  }
+  .body {
+    flex-direction: column;
+    gap: 20px;
+  }
+}

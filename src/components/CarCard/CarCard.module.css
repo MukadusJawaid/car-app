@@ -1,0 +1,45 @@
+.mainDiv {
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid var(--light-gray);
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.imageDiv {
+  overflow: hidden;
+  border-radius: 10px;
+  background-color: var(--light-gray);
+  position: relative;
+  width: 100%;
+  height: 300px;
+}
+.imageDiv img {
+  object-fit: cover;
+}
+
+.body {
+  background-color: var(--white-color);
+  padding: 15px 10px;
+}
+
+.body span {
+  line-height: 1.5;
+  color: var(--border-color) !important;
+  margin-block-start: 10px !important;
+}
+
+.mainDiv:hover {
+  transform: scale(0.98);
+}
+
+@media screen and (max-width: 768px) {
+  .imageDiv {
+    height: 230px;
+  }
+  .body h5 {
+    font-size: 16px;
+  }
+  .body span {
+    font-size: 14px;
+  }
+}

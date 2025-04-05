@@ -1,0 +1,68 @@
+.inputContainer {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  gap: 7px;
+}
+.label {
+  font-weight: 500;
+  color: var(--primary-color);
+  font-family: var(--font-outfit);
+  font-size: 16px;
+}
+.passwordTypeIcon {
+  position: absolute;
+  right: 10px;
+  top: 54px;
+  transform: translateY(-50%);
+}
+.input {
+  padding: 10px 20px;
+  color: var(--primary-color);
+  font-family: var(--font-outfit);
+  font-weight: 400 !important;
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid var(--border-color);
+}
+.input:focus {
+  outline: 2px solid var(--border-focus-color);
+}
+.errorText {
+  font-size: 14px;
+  font-family: var(--font-outfit);
+  font-weight: 400 !important;
+  margin-block: 1px 3px;
+  color: var(--error-color);
+}
+.input::placeholder {
+  text-transform: capitalize;
+}
+
+@media screen and (max-width: 992px) {
+  .inputContainer {
+    gap: 4px;
+  }
+  .label {
+    font-size: 14px;
+  }
+  .input {
+    padding: 7px;
+  }
+  .input:focus {
+    outline: 1px solid var(--border-focus-color);
+  }
+  .passwordTypeIcon {
+    top: 44px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .input::placeholder {
+    font-size: 12px;
+  }
+  .passwordTypeIcon svg {
+    width: 12px;
+    height: 12px;
+  }
+}

@@ -1,0 +1,18 @@
+.titleDiv {
+  margin-block: 80px 30px;
+}
+@media screen and (max-width: 768px) {
+  .titleDiv {
+    margin-block: 50px 30px;
+  }
+
+  .titleDiv h1 {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .titleDiv {
+    margin-block: 40px 25px;
+  }
+}

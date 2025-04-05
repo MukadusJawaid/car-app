@@ -1,0 +1,56 @@
+.imageDiv {
+  position: relative;
+  height: 700px;
+  width: 100%;
+}
+.imageDiv img {
+  object-position: top;
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+.imageDiv::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 1;
+  pointer-events: none;
+}
+
+.overLay {
+  z-index: 1;
+  height: 100%;
+  position: relative;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.textDiv {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  z-index: 9999;
+  flex-direction: column;
+  gap: 10px;
+  height: 100%;
+  width: 100%;
+}
+.textDiv span,
+.textDiv h1 {
+  color: var(--white-color) !important;
+}
+
+.textDiv span {
+  font-size: 22px;
+}
+
+@media screen and (max-width: 768px) {
+  .imageDiv {
+    height: 450px;
+  }
+}
