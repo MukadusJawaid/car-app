@@ -1,6 +1,4 @@
-import React from "react";
-import PropTypes from "prop-types";
-import { ReactTyped, Typed } from "react-typed";
+import { ReactTyped } from "react-typed";
 
 export default function TypingAnimation({
   speed,
@@ -21,11 +19,3 @@ export default function TypingAnimation({
     />
   );
 }
-
-TypingAnimation.propTypes = {
-  speed: PropTypes.number.isRequired,
-  loop: PropTypes?.bool.isRequired,
-  strings: PropTypes.array.isRequired,
-  backSpeed: PropTypes.number,
-  cursorChar: PropTypes.string,
-};

@@ -9,6 +9,17 @@ export default function AOSWrapper({
 }) {
   useEffect(() => {
     AOS.init({ once: true });
+
+    setTimeout(() => {
+      AOS.refresh();
+    }, 500);
+
+    const handleResize = () => AOS.refresh();
+    window.addEventListener("resize", handleResize);
+
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
   }, []);
 
   return (
@@ -16,7 +27,7 @@ export default function AOSWrapper({
       data-aos={animation}
       data-aos-duration={duration}
       data-aos-delay={delay}
-      data-aos-once="false"
+      data-aos-once="true"
     >
       {children}
     </div>

@@ -36,9 +36,7 @@ export default function LandingPageView() {
           </Col>
 
           <Col md={12}>
-            <AOSWrapper duration={600}>
-              <Heading heading={"About Cars"} />
-            </AOSWrapper>
+            <Heading heading={"About Cars"} />
           </Col>
 
           <Col md={12}>
