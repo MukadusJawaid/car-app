@@ -22,6 +22,7 @@ export default function Footer() {
           <div className={classes.navItems}>
             {navData?.map((item) => (
               <h5
+                key={item?.route}
                 className={classes.nav}
                 onClick={() => router?.push(item?.route)}
               >
@@ -31,7 +32,9 @@ export default function Footer() {
           </div>
           <div className={classes.socialLinkDiv}>
             {socialLinks?.map((item) => (
-              <h5>{item?.label}</h5>
+              <h5 key={item?.route} onClick={() => router?.push(item?.route)}>
+                {item?.label}
+              </h5>
             ))}
           </div>
         </div>
