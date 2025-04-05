@@ -1,3 +1,8 @@
+.mainDiv {
+  border: 1px solid var(--light-gray);
+  padding: 15px;
+  border-radius: 10px;
+}
 .aboutDescription {
   text-align: justify;
   color: var(--border-color) !important;
