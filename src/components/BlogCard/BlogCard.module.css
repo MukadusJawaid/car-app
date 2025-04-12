@@ -28,15 +28,21 @@
   width: 60%;
   padding: 25px;
   display: flex;
-  gap: 10px;
+
   flex-direction: column;
+  justify-content: space-between;
 }
-.blogDetailDiv span {
+.blogDataDiv {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.blogDataDiv span {
   text-transform: capitalize;
 
   color: var(--border-color) !important;
 }
-.blogDetailDiv p {
+.blogDataDiv p {
   font-size: 14px;
   margin-bottom: 0px;
 }
@@ -49,7 +55,7 @@
 }
 
 .btn {
-  margin-block-start: 10px;
+  margin-block-start: 15px;
   padding: 5px 10px !important;
   width: fit-content !important;
 }

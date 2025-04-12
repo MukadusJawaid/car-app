@@ -81,8 +81,11 @@ export default function LandingPageView() {
           </Col>
           <Col md={12}>
             <Row className="gy-3">
-              {BLOGS_DATA?.slice(0, 3)?.map((item, index) => (
-                <Col lg={index === 2 ? { span: 6, offset: 3 } : 6} key={index}>
+              {BLOGS_DATA?.slice(0, 3)?.map((item, index, element) => (
+                <Col
+                  lg={element.length - 1 === index ? { span: 6, offset: 3 } : 6}
+                  key={index}
+                >
                   <AOSWrapper delay={index * 100}>
                     <BlogCard
                       data={item}
@@ -100,7 +103,7 @@ export default function LandingPageView() {
               <Button
                 variant={"primary-outline"}
                 label="Explore More"
-                onClick={() => router?.push("/cars")}
+                onClick={() => router?.push("/blogs")}
               />
             </AOSWrapper>
           </Col>

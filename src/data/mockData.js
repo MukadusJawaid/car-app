@@ -138,4 +138,18 @@ export const BLOGS_DATA = [
       "Self-driving cars are no longer science fiction. But are they truly ready for mass adoption? We explore the technology, safety concerns, and future possibilities.",
     date: "2025-02-15",
   },
+  {
+    title: "How Sustainable Is the Future of Car Manufacturing?",
+    image: "/images/dummyImages/blogFour.jpg",
+    shortDesc:
+      "With growing climate concerns, car manufacturers are rethinking how vehicles are made. From recycled materials to carbon-neutral factories, here's how the industry is changing.",
+    date: "2025-04-01",
+  },
+  {
+    title: "EV vs. Hybrid: Which Should You Buy in 2025?",
+    image: "/images/dummyImages/blogFive.jpg",
+    shortDesc:
+      "Choosing between a fully electric car and a hybrid can be tricky. We break down the pros and cons of both to help you make the right choice for your lifestyle.",
+    date: "2025-03-20",
+  },
 ];

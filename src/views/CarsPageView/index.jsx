@@ -16,16 +16,16 @@ export default function CarsPageView() {
     <div className={classes.mainDiv}>
       <HeroSection
         image={"/images/appImages/landingPageBg.jpg"}
-        title={"Explore New Car Models"}
-        stringArray={["Latest Cars", "Automotive Innovations"]}
+        title={"Unveiling the Future of Cars"}
+        stringArray={["Bold Design", "Smarter Drive."]}
       />
+
       <Container>
         <Row>
           <Col md={12}>
-            <Col md={12}>
-              <Heading heading={"Luxury & Innovation Unveiled"} />
-            </Col>
+            <Heading heading={"Fierce Innovation."} />
           </Col>
+
           <Col md={12}>
             <Row className="gy-3">
               {CAR_CARD_DATA?.map((item, index, element) => (

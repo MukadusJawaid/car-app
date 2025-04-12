@@ -37,30 +37,47 @@
   flex-direction: column;
   gap: 10px;
   height: 100%;
+
   width: 100%;
 }
 .textDiv span,
 .textDiv h1 {
+  text-align: center;
   color: var(--white-color) !important;
 }
-
+.textDiv h1 {
+  width: 900px;
+}
 .textDiv span {
   font-size: 22px;
+}
+
+@media screen and (max-width: 1200px) {
+  .textDiv h1 {
+    width: 800px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .textDiv h1 {
+    width: 550px;
+  }
 }
 
 @media screen and (max-width: 768px) {
   .imageDiv {
     height: 450px;
   }
+
   .textDiv span {
     font-size: 20px;
+  }
+  .textDiv h1 {
+    width: 100%;
   }
   .textDiv {
     flex-wrap: wrap;
     padding-inline: 40px;
-  }
-  .textDiv h1 {
-    text-align: center;
   }
 }
 
