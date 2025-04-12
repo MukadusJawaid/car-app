@@ -21,6 +21,7 @@ export default function LandingPageView() {
     <main className={classes.mainDiv}>
       <HeroSection
         title={"Caropedia"}
+        image={"/images/appImages/landingPageBg.jpg"}
         stringArray={["Learn. Compare. Decide.", "Facts. Insights. Answers."]}
       />
       <Container>
@@ -43,7 +44,8 @@ export default function LandingPageView() {
             <Row className="g-3">
               {CAR_CARD_DATA?.slice(0, 3)?.map((item, index, element) => (
                 <Col
-                  sm={12}
+                  xs={12}
+                  sm={element.length - 1 === index ? 12 : 6}
                   md={element.length - 1 === index ? 12 : 6}
                   lg={4}
                   xl={4}

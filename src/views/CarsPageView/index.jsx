@@ -15,22 +15,24 @@ export default function CarsPageView() {
   return (
     <div className={classes.mainDiv}>
       <HeroSection
-        title={"Drive Into the Latest Car Models"}
+        image={"/images/appImages/landingPageBg.jpg"}
+        title={"Explore New Car Models"}
         stringArray={["Latest Cars", "Automotive Innovations"]}
       />
       <Container>
         <Row>
           <Col md={12}>
             <Col md={12}>
-              <Heading heading={"Latest in Luxury and Innovation"} />
+              <Heading heading={"Luxury & Innovation Unveiled"} />
             </Col>
           </Col>
           <Col md={12}>
             <Row className="gy-3">
               {CAR_CARD_DATA?.map((item, index, element) => (
                 <Col
-                  sm={12}
-                  md={element.length - 1 === index ? 12 : 6}
+                  xs={12}
+                  sm={6}
+                  md={element?.length - 1 === index ? 12 : 6}
                   lg={6}
                   xl={6}
                   key={index}

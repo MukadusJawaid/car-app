@@ -9,8 +9,8 @@ export default function CarCard({ data, onClick }) {
         <Image src={data?.image} fill alt="carImage" />
       </div>
       <div className={classes.body}>
-        <h5>{data?.title}</h5>
-        <span className="maxLine3">{data?.description}</span>
+        <h5 className="maxLine1">{data?.title}</h5>
+        <span className="maxLine3">{data?.shortDescription}</span>
       </div>
     </div>
   );

@@ -3,10 +3,10 @@ import classes from "./HeroSection.module.css";
 import TypingAnimation from "../TypingAnimation";
 import Image from "next/image";
 
-export default function HeroSection({ title, stringArray }) {
+export default function HeroSection({ title, stringArray, image }) {
   return (
     <div className={classes.imageDiv}>
-      <Image fill alt="bg" src={"/images/appImages/landingPageBg.jpg"} />
+      <Image fill alt="bg" src={image} />
       <div className={classes.overLay}>
         <div className={classes.textDiv}>
           <h1>{title}</h1>
