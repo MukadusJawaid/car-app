@@ -176,7 +176,7 @@ To dive deeper into this evolving world, explore the latest insights and breakth
 
 Leading brands are incorporating <b>recycled materials</b> in interiors, utilizing <u>vegan leather</u>, and reducing the use of non-renewable resources. Even the paint is being reformulated to minimize pollutants. From production floors to supply chains, companies like <a href="https://www.bmwgroup.com/en/sustainability.html" target="_blank"><b>BMW</b></a> and <a href="https://www.volvocars.com/intl/v/car-sustainability" target="_blank"><b>Volvo</b></a> are embracing <i>carbon-neutral manufacturing</i> and aiming for complete sustainability by 2040.<br /><br />
 
-<div style="display: flex; gap: 20px; flex-wrap: wrap;">
+<div style="display: flex; gap: 20px; ">
   <img src="/images/dummyImages/repair-car.jpg" alt="Eco-Friendly Car Factory" style="width: 48%; border-radius: 12px;" />
   <img src="/images/dummyImages/repair-car-two.jpg" alt="Recycled Car Interior" style="width: 48%; border-radius: 12px;" />
 </div><br /><br />
@@ -197,7 +197,7 @@ For a deeper look at real-world efforts, visit <a href="https://www.audi.com/en/
 
 <b>Hybrids</b>, on the other hand, blend a gasoline engine with an electric motor. This gives drivers the best of both worlds: <u>improved fuel efficiency</u> and the convenience of refueling at any gas station. While they don’t eliminate emissions entirely, hybrids can be a more practical option for those who do a lot of long-distance driving or live in areas without much EV infrastructure.<br /><br />
 
-<div style="display: flex; gap: 20px; flex-wrap: wrap;">
+<div style="display: flex; gap: 20px; ">
   <img src="/images/dummyImages/ev-car.jpg" alt="Electric Vehicle Charging" style="width: 48%; border-radius: 12px;" />
   <img src="/images/dummyImages/fuel.jpg" alt="Hybrid Vehicle Driving" style="width: 48%; border-radius: 12px;" />
 </div><br /><br />
