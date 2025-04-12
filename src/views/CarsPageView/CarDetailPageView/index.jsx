@@ -17,7 +17,7 @@ export default function CarDetailPage({ slug }) {
       <Container>
         <Row>
           <Col md={12}>
-            <Heading heading={"Model Summary"} />
+            <Heading titleDiv={classes.headingDiv} heading={"Model Summary"} />
           </Col>
           <Col md={12}>
             <p>{carData?.description && parse(carData?.description)}</p>

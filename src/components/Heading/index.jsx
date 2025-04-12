@@ -1,10 +1,11 @@
 import React from "react";
 import classes from "./Heading.module.css";
+import clsx from "clsx";
 
-export default function Heading({ heading }) {
+export default function Heading({ heading, titleDiv }) {
   return (
-    <div className={classes.titleDiv}>
-      <h1>{heading}</h1>
+    <div className={clsx(classes.titleDiv, titleDiv)}>
+      <h2>{heading}</h2>
     </div>
   );
 }
