@@ -5,6 +5,7 @@ import Image from "next/image";
 import { navData, pages, socialLinks } from "@/data/appData";
 import { usePathname, useRouter } from "next/navigation";
 import TypingAnimation from "../TypingAnimation";
+import clsx from "clsx";
 
 export default function Footer() {
   const router = useRouter();
@@ -31,7 +32,10 @@ export default function Footer() {
           {navData?.map((item) => (
             <h5
               key={item?.route}
-              className={classes.nav}
+              className={clsx(
+                pathName === item?.route && classes.activeTab,
+                classes.nav
+              )}
               onClick={() => router?.push(item?.route)}
             >
               {item?.label}

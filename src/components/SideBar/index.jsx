@@ -7,6 +7,7 @@ import { navData, pages } from "@/data/appData";
 import { usePathname, useRouter } from "next/navigation";
 import Button from "../Button";
 import { CgClose } from "react-icons/cg";
+import clsx from "clsx";
 
 export default function SideBar() {
   const router = useRouter();
@@ -97,7 +98,10 @@ export default function SideBar() {
                   <span
                     key={index}
                     onClick={() => router?.push(e?.route)}
-                    className={classes.navigation}
+                    className={clsx(
+                      pathName === e?.route && classes.activeTab,
+                      classes.navigation
+                    )}
                   >
                     {e?.label}
                   </span>
