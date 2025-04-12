@@ -16,7 +16,7 @@ export default function CarsPageView() {
     <div className={classes.mainDiv}>
       <HeroSection
         image={"/images/appImages/landingPageBg.jpg"}
-        title={"Unveiling the Future of Cars"}
+        title={"Future on Wheels"}
         stringArray={["Bold Design", "Smarter Drive."]}
       />
 

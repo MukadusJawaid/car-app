@@ -123,6 +123,15 @@ export const BLOGS_DATA = [
     shortDesc:
       "Electric vehicles are evolving rapidly, with advancements in battery technology, charging infrastructure, and range. Discover what 2025 holds for EV enthusiasts.",
     date: "2025-04-03",
+    description: `The world of <b>electric vehicles (EVs)</b> is on the brink of a massive transformation as we step into <b>2025</b>. With breakthroughs in <i>battery technology</i>, enhanced <b>charging infrastructure</b>, and the expansion of <u>EV-friendly policies</u>, the landscape is shifting faster than ever. What once felt like a futuristic concept is now becoming the standard for modern mobility.<br /><br />
+
+Automakers are racing to deliver next-gen EVs with <b>longer ranges</b>, <i>faster charging times</i>, and smart integrations that make the driving experience more connected and intuitive. Companies like <a href="https://www.tesla.com/" target="_blank"><b>Tesla</b></a>, <a href="https://www.ford.com/electric/" target="_blank"><b>Ford</b></a>, and <a href="https://www.hyundai.com/worldwide/en/eco/ioniq5" target="_blank"><b>Hyundai</b></a> are leading the charge, unveiling models that are not only sustainable but also performance-driven.<br /><br />
+
+<img src="/images/dummyImages/blog-detail-img-one.jpg" alt="Future Electric Vehicles" style="width: 100%; border-radius: 12px;" /><br /><br />
+
+In addition to consumer EVs, we’re seeing a major push in <b>electric commercial transport</b> and even <i>autonomous electric fleets</i>. Urban planning is evolving too — with an emphasis on more <u>accessible public EV charging stations</u>, tax incentives, and eco-friendly zoning.<br /><br />
+
+As 2025 unfolds, one thing is certain: the shift toward <b>electric mobility</b> isn’t slowing down. Whether you’re a tech enthusiast, an eco-conscious driver, or simply curious about the future of transport — now is the time to <a href="https://electrek.co/guides/electric-vehicles/" target="_blank"><b>plug in and explore</b></a> this exciting revolution.`,
   },
   {
     title: "Top 10 Sports Cars That Redefine Speed and Luxury",
@@ -130,6 +139,16 @@ export const BLOGS_DATA = [
     shortDesc:
       "From Ferrari to Lamborghini, these sports cars push the boundaries of design, speed, and performance. Check out our list of the most stunning supercars.",
     date: "2025-03-25",
+    description: `In the fast-paced world of automotive excellence, few categories turn heads like <b>high-performance sports cars</b>. From the iconic lines of a <b>Ferrari</b> to the aggressive roar of a <b>Lamborghini</b>, these machines are more than just vehicles—they’re moving works of art. Designed to <i>dominate the road and racetrack alike</i>, they combine sleek aesthetics with cutting-edge engineering.<br /><br />
+
+What sets these supercars apart isn’t just their speed or styling—it’s the way they redefine what's possible. Brands like <a href="https://www.ferrari.com/en-EN/auto" target="_blank"><b>Ferrari</b></a>, <a href="https://www.lamborghini.com/en-en/models" target="_blank"><b>Lamborghini</b></a>, and <a href="https://www.mclaren.com/" target="_blank"><b>McLaren</b></a> continuously innovate, pushing limits in <u>aerodynamics</u>, <u>lightweight materials</u>, and <i>track-tested technology</i> to deliver experiences like no other.<br /><br />
+
+  <img src="/images/dummyImages/ferrari.jpg" alt="Supercar Showcase 1" style="width :100% ; border-radius: 12px;" />
+<br /><br />
+
+From the <b>Ferrari SF90 Stradale</b> to the <b>Lamborghini Aventador Ultimae</b>, these vehicles are more than status symbols—they’re marvels of engineering crafted for those who crave <i>adrenaline, luxury, and precision</i>. Whether you're a car collector, an enthusiast, or someone who simply appreciates automotive beauty, these cars are sure to inspire awe.<br /><br />
+
+Take a closer look at the top 10 supercars that are <b>pushing the boundaries of design and performance</b> in the modern era. <a href="https://www.topgear.com/car-news/supercars" target="_blank"><b>Read more on Top Gear</b></a> for an in-depth look at what makes these cars so special.`,
   },
   {
     title: "The Rise of Autonomous Vehicles: Are We Ready?",
@@ -137,6 +156,15 @@ export const BLOGS_DATA = [
     shortDesc:
       "Self-driving cars are no longer science fiction. But are they truly ready for mass adoption? We explore the technology, safety concerns, and future possibilities.",
     date: "2025-02-15",
+    description: `The world of transportation is undergoing a radical transformation, and at the heart of it lies the rise of <b>autonomous vehicles</b>. Once confined to science fiction, <i>self-driving cars</i> are now being tested on real roads, developed by some of the most innovative companies in the world—from <a href="https://www.tesla.com/" target="_blank"><b>Tesla</b></a> to <a href="https://waymo.com/" target="_blank"><b>Waymo</b></a> and beyond.<br /><br />
+
+But the question remains: <u>Are we truly ready for full autonomy?</u> These vehicles rely on a complex mix of sensors, AI, machine learning, and constant data analysis to navigate roads, avoid obstacles, and make split-second decisions. While the technology continues to evolve rapidly, challenges like safety, legislation, ethical concerns, and public trust still present major hurdles.<br /><br />
+
+<img src="/images/dummyImages/autonomous.jpg" alt="Self-Driving Car Technology" style="width: 100%; border-radius: 12px;" /><br /><br />
+
+Despite these challenges, the promise is immense. From reducing traffic accidents to enabling mobility for those unable to drive, the potential impact of self-driving cars on society is profound. Major automakers and tech giants are investing heavily in autonomous R&D, racing toward a future where <b>cars drive themselves safely, efficiently, and intelligently</b>.<br /><br />
+
+To dive deeper into this evolving world, explore the latest insights and breakthroughs from the experts at <a href="https://www.nhtsa.gov/technology-innovation/automated-vehicles-safety" target="_blank"><b>NHTSA: Automated Vehicle Safety</b></a>.`,
   },
   {
     title: "How Sustainable Is the Future of Car Manufacturing?",
@@ -144,6 +172,18 @@ export const BLOGS_DATA = [
     shortDesc:
       "With growing climate concerns, car manufacturers are rethinking how vehicles are made. From recycled materials to carbon-neutral factories, here's how the industry is changing.",
     date: "2025-04-01",
+    description: `As climate change becomes an increasingly urgent global issue, the automotive industry is stepping up with <b>sustainable innovation</b>. Manufacturers are no longer just focused on performance and luxury — they're rethinking how cars are made, from the materials used to the factories where they're built. This shift is not just a trend; it’s a <i>critical response</i> to environmental concerns that affect us all.<br /><br />
+
+Leading brands are incorporating <b>recycled materials</b> in interiors, utilizing <u>vegan leather</u>, and reducing the use of non-renewable resources. Even the paint is being reformulated to minimize pollutants. From production floors to supply chains, companies like <a href="https://www.bmwgroup.com/en/sustainability.html" target="_blank"><b>BMW</b></a> and <a href="https://www.volvocars.com/intl/v/car-sustainability" target="_blank"><b>Volvo</b></a> are embracing <i>carbon-neutral manufacturing</i> and aiming for complete sustainability by 2040.<br /><br />
+
+<div style="display: flex; gap: 20px; flex-wrap: wrap;">
+  <img src="/images/dummyImages/repair-car.jpg" alt="Eco-Friendly Car Factory" style="width: 48%; border-radius: 12px;" />
+  <img src="/images/dummyImages/repair-car-two.jpg" alt="Recycled Car Interior" style="width: 48%; border-radius: 12px;" />
+</div><br /><br />
+
+Sustainability doesn't stop at manufacturing. Car companies are also investing in <b>clean energy infrastructure</b> such as solar-powered charging stations, and promoting <u>eco-conscious driving habits</u> through connected vehicle technologies. With a growing demand for <i>green mobility</i>, automakers are proving that sustainability and innovation can go hand in hand.<br /><br />
+
+For a deeper look at real-world efforts, visit <a href="https://www.audi.com/en/sustainability.html" target="_blank"><b>Audi’s Official Sustainability Program</b></a> and see how one of the world’s top automakers is redefining green luxury.`,
   },
   {
     title: "EV vs. Hybrid: Which Should You Buy in 2025?",
@@ -151,5 +191,19 @@ export const BLOGS_DATA = [
     shortDesc:
       "Choosing between a fully electric car and a hybrid can be tricky. We break down the pros and cons of both to help you make the right choice for your lifestyle.",
     date: "2025-03-20",
+    description: `As the auto industry shifts toward sustainability, many drivers are left with one major question: <b>Should I go fully electric or choose a hybrid?</b> Both vehicle types offer greener alternatives to traditional combustion engines, but they serve different lifestyles and driving needs.<br /><br />
+
+<b>Electric Vehicles (EVs)</b> are powered solely by electricity and produce <u>zero tailpipe emissions</u>. They offer quiet rides, lower maintenance costs, and growing public charging infrastructure. However, <i>range anxiety</i> and charging time can still be concerns for those without regular access to charging stations.<br /><br />
+
+<b>Hybrids</b>, on the other hand, blend a gasoline engine with an electric motor. This gives drivers the best of both worlds: <u>improved fuel efficiency</u> and the convenience of refueling at any gas station. While they don’t eliminate emissions entirely, hybrids can be a more practical option for those who do a lot of long-distance driving or live in areas without much EV infrastructure.<br /><br />
+
+<div style="display: flex; gap: 20px; flex-wrap: wrap;">
+  <img src="/images/dummyImages/ev-car.jpg" alt="Electric Vehicle Charging" style="width: 48%; border-radius: 12px;" />
+  <img src="/images/dummyImages/fuel.jpg" alt="Hybrid Vehicle Driving" style="width: 48%; border-radius: 12px;" />
+</div><br /><br />
+
+Ultimately, your choice comes down to your <i>daily driving habits, budget, and access to charging or fueling stations</i>. If you have a short commute and access to home charging, an EV might be ideal. If flexibility is your priority, a hybrid offers that balance.<br /><br />
+
+For more detailed comparisons, check out <a href="https://www.theaa.com/cars/advice/guides/hybrid-vs-electric-cars" target="_blank"><b>AA Cars: Hybrid vs Electric Cars – Which One Is Best for Me?</b></a>`,
   },
 ];

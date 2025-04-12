@@ -9,13 +9,20 @@ export default function TypingAnimation({
   className,
 }) {
   return (
-    <ReactTyped
-      className={className}
-      strings={strings}
-      typeSpeed={speed}
-      loop={loop}
-      backSpeed={backSpeed}
-      cursorChar={loop ? cursorChar || "|" : ""}
-    />
+    <div
+      style={{
+        minHeight: "fit-content",
+        display: "inline-block",
+      }}
+    >
+      <ReactTyped
+        className={className}
+        strings={strings}
+        typeSpeed={speed}
+        loop={loop}
+        backSpeed={backSpeed}
+        cursorChar={loop ? cursorChar || "|" : ""}
+      />
+    </div>
   );
 }
