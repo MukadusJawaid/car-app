@@ -6,7 +6,7 @@
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
   overflow: hidden;
-  cursor: pointer;
+
   display: flex;
   height: 100%;
   transition: all 0.5s;
@@ -46,6 +46,12 @@
   -moz-transform: scale(0.97);
   -ms-transform: scale(0.97);
   -o-transform: scale(0.97);
+}
+
+.btn {
+  margin-block-start: 10px;
+  padding: 5px 10px !important;
+  width: fit-content !important;
 }
 @media screen and (max-width: 768px) {
   .blogDetailDiv {

@@ -84,3 +84,9 @@
     padding-inline: 0px;
   }
 }
+@media screen and (max-width: 992px) and (orientation: landscape) {
+  .subMainDiv {
+    height: 100vh;
+    padding-block: 30px;
+  }
+}

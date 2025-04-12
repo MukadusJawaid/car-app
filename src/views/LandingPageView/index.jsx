@@ -1,18 +1,18 @@
 "use client";
 import classes from "./LandingPageView.module.css";
 
+import AboutSection from "@/components/AboutSection";
 import BlogCard from "@/components/BlogCard";
 import CarCard from "@/components/CarCard";
+import AOSWrapper from "@/components/ComponentAnimation";
 import FeatureCard from "@/components/FeatureCard";
+import Heading from "@/components/Heading";
 import HeroSection from "@/components/HeroSection";
+import { generateSlug } from "@/data/helper";
 import { BLOGS_DATA, CAR_CARD_DATA, CAR_FEATURES_DATA } from "@/data/mockData";
-import Image from "next/image";
 import { useRouter } from "next/navigation";
 import { Col, Container, Row } from "react-bootstrap";
 import Button from "../../components/Button";
-import Heading from "@/components/Heading";
-import AboutSection from "@/components/AboutSection";
-import AOSWrapper from "@/components/ComponentAnimation";
 
 export default function LandingPageView() {
   const router = useRouter();
@@ -52,7 +52,9 @@ export default function LandingPageView() {
                   <AOSWrapper delay={index * 100}>
                     <CarCard
                       data={item}
-                      onClick={() => router?.push("/cars")}
+                      onClick={() =>
+                        router?.push(`/cars/${generateSlug(item?.title)}`)
+                      }
                     />
                   </AOSWrapper>
                 </Col>
@@ -80,7 +82,12 @@ export default function LandingPageView() {
               {BLOGS_DATA?.slice(0, 3)?.map((item, index) => (
                 <Col lg={index === 2 ? { span: 6, offset: 3 } : 6} key={index}>
                   <AOSWrapper delay={index * 100}>
-                    <BlogCard data={item} />
+                    <BlogCard
+                      data={item}
+                      onClick={() =>
+                        router?.push(`/blogs/${generateSlug(item?.title)}`)
+                      }
+                    />
                   </AOSWrapper>
                 </Col>
               ))}

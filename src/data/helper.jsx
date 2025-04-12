@@ -7,3 +7,9 @@ export const uniqueInputId = (label) => {
 export const emailValidation = (email) => {
   return emailRegex?.test(email);
 };
+export const generateSlug = (title = "") => {
+  return title
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "-") // Replace spaces and special chars with dashes
+    .replace(/^-+|-+$/g, ""); // Trim starting/ending dashes
+};

@@ -1,5 +1,5 @@
 .titleDiv {
-  margin-block: 80px 30px;
+  margin-block: 40px 30px;
 }
 @media screen and (max-width: 768px) {
   .titleDiv {
@@ -13,6 +13,6 @@
 
 @media screen and (max-width: 576px) {
   .titleDiv {
-    margin-block: 40px 25px;
+    margin-block: 35px 25px;
   }
 }

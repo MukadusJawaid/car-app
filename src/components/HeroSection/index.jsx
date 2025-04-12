@@ -10,14 +10,16 @@ export default function HeroSection({ title, stringArray }) {
       <div className={classes.overLay}>
         <div className={classes.textDiv}>
           <h1>{title}</h1>
-          <span className="h2">
-            <TypingAnimation
-              loop={false}
-              speed={70}
-              backSpeed={70}
-              strings={stringArray}
-            />
-          </span>
+          {stringArray && (
+            <span className="h2">
+              <TypingAnimation
+                loop={false}
+                speed={70}
+                backSpeed={70}
+                strings={stringArray}
+              />
+            </span>
+          )}
         </div>
       </div>
     </div>

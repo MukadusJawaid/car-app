@@ -56,6 +56,13 @@
   .textDiv span {
     font-size: 20px;
   }
+  .textDiv {
+    flex-wrap: wrap;
+    padding-inline: 40px;
+  }
+  .textDiv h1 {
+    text-align: center;
+  }
 }
 
 @media screen and (max-width: 576px) {
@@ -66,5 +73,9 @@
 @media screen and (max-width: 440px) {
   .textDiv span {
     font-size: 16px;
+  }
+  .textDiv {
+    flex-wrap: wrap;
+    padding-inline: 20px;
   }
 }

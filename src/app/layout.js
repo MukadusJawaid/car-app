@@ -21,7 +21,7 @@ const outfit = Outfit({
 
 export const metadata = {
   title: "Caropedia Web",
-  description: "Just a dummy car app for practicing, by Mukadus Jawaid",
+  description: "Just a mock car app for practicing, by Mukadus Jawaid",
 };
 
 export default function RootLayout({ children }) {
