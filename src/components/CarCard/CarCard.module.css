@@ -90,4 +90,8 @@
   .body span {
     font-size: 14px;
   }
+
+  .mainDiv:hover::after {
+    display: none;
+  }
 }
