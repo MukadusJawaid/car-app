@@ -14,9 +14,9 @@
   background-color: var(--primary-color);
 }
 .primary:hover {
-  color: var(--primary-color);
-  border: 1px solid var(--primary-color);
-  background-color: transparent;
+  color: var(--white-color);
+  border: 1px solid #282828;
+  background-color: #282828;
 }
 .primary-outline {
   color: var(--primary-color);

@@ -88,6 +88,7 @@ export default function LoginPageView() {
                           setter={(val) => handleChange("email", val)}
                           value={formData?.email}
                           label={"Email"}
+                          labelClass={classes.label}
                         />
                       </Col>
 
@@ -98,6 +99,7 @@ export default function LoginPageView() {
                           setter={(val) => handleChange("password", val)}
                           value={formData?.password}
                           label={"Password"}
+                          labelClass={classes.label}
                         />
                       </Col>
 

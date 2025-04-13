@@ -109,9 +109,52 @@
     padding-inline: 0px;
   }
 }
+@media screen and (max-width: 764px) {
+  .mainDiv {
+    background: url("/images/appImages/authImage.jpg") center center / cover
+      no-repeat;
+  }
+  .mainDiv::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.425);
+    z-index: 1;
+    pointer-events: none;
+  }
+  .subMainDiv {
+    position: relative;
+    z-index: 2;
+  }
+  .headings h1,
+  .headings h6,
+  .label {
+    color: var(--white-color) !important;
+  }
+  .subDiv {
+    box-shadow: none;
+    border: 1px solid rgba(255, 255, 255, 0.082);
+    backdrop-filter: blur(7px);
+    -webkit-backdrop-filter: blur(7px);
+    background-color: rgba(255, 255, 255, 0.082);
+  }
+  .button {
+    margin-block-start: 10px;
+    border: 2px solid rgba(255, 255, 255, 0.11) !important;
+  }
+}
+
 @media screen and (max-width: 1024) and (orientation: landscape) {
   .subMainDiv {
     height: 100vh;
     padding-block: 30px;
+  }
+}
+@media screen and (max-height: 389px) {
+  .mainDiv {
+    padding-block: 40px;
   }
 }

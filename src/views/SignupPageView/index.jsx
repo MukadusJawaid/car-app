@@ -112,6 +112,7 @@ export default function SignUpPageView() {
                       </Col>
                       <Col md={12}>
                         <Input
+                          labelClass={classes.label}
                           type={"password"}
                           setter={(val) => handleChange("password", val)}
                           value={formData?.password}
