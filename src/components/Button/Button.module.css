@@ -32,6 +32,16 @@
 .button:hover {
   transform: scale(0.98);
 }
+.secondary {
+  border: 1px solid var(--primary-color);
+  color: var(--white-color);
+  background-color: var(--primary-color);
+}
+.secondary:hover {
+  border: 1px solid var(--white-color);
+  background-color: var(--white-color);
+  color: var(--primary-color);
+}
 
 @media screen and (max-width: 992px) {
   .button {
