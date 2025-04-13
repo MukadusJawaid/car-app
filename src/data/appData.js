@@ -1,8 +1,5 @@
-import { CgWebsite } from "react-icons/cg";
-import { FaGithubSquare } from "react-icons/fa";
-import { ImGithub, ImInstagram, ImLinkedin } from "react-icons/im";
+import { ImBehance2, ImGithub, ImInstagram, ImLinkedin } from "react-icons/im";
 import { MdWeb } from "react-icons/md";
-import { ImBehance2 } from "react-icons/im";
 export const navData = [
   {
     label: "Home",
@@ -18,7 +15,7 @@ export const navData = [
     route: "/blogs",
   },
   {
-    label: "About Us",
+    label: "About Me",
     route: "/about",
   },
   {
