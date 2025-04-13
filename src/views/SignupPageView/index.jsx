@@ -85,6 +85,7 @@ export default function SignUpPageView() {
                       </Col>
                       <Col md={12}>
                         <Input
+                          labelClass={classes.label}
                           setter={(val) => handleChange("name", val)}
                           value={formData?.name}
                           label={"FullName"}
@@ -93,6 +94,7 @@ export default function SignUpPageView() {
                       </Col>
                       <Col md={12}>
                         <Input
+                          labelClass={classes.label}
                           setter={(val) => handleChange("email", val)}
                           value={formData?.email}
                           label={"Email"}
@@ -101,6 +103,7 @@ export default function SignUpPageView() {
                       </Col>
                       <Col md={12}>
                         <Input
+                          labelClass={classes.label}
                           setter={(val) => handleChange("phone", val)}
                           value={formData?.phone}
                           label={"Phone Number"}
@@ -118,6 +121,7 @@ export default function SignUpPageView() {
                       </Col>
                       <Col md={12}>
                         <Input
+                          labelClass={classes.label}
                           type={"password"}
                           setter={(val) => handleChange("confirmPassword", val)}
                           value={formData?.confirmPassword}

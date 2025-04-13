@@ -5,6 +5,7 @@ import classes from "./Input.module.css";
 import { FaLock } from "react-icons/fa";
 import { FaLockOpen } from "react-icons/fa";
 import { uniqueInputId } from "../../data/helper";
+import clsx from "clsx";
 
 export default function Input({
   setter,
@@ -15,6 +16,7 @@ export default function Input({
   className,
   placeholder,
   error,
+  labelClass,
 }) {
   const inputId = uniqueInputId(label);
 
@@ -26,7 +28,7 @@ export default function Input({
 
   return (
     <div className={classes.inputContainer}>
-      <label htmlFor={inputId} className={classes.label}>
+      <label htmlFor={inputId} className={clsx(labelClass, classes.label)}>
         {label}
       </label>
       <input
