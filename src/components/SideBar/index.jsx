@@ -51,9 +51,9 @@ export default function SideBar() {
     };
   }, []);
 
-  // useEffect(() => {
-  //   setShowSideBar(false);
-  // }, [pathName]);
+  useEffect(() => {
+    setShowSideBar(false);
+  }, [pathName]);
 
   return (
     <>
