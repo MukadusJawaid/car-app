@@ -9,6 +9,7 @@ import TypingAnimation from "../../components/TypingAnimation";
 import Input from "../../components/Input";
 import Button from "../../components/Button";
 import classes from "./SignupPageView.module.css";
+import clsx from "clsx";
 
 export default function SignUpPageView() {
   const router = useRouter();
@@ -32,7 +33,7 @@ export default function SignUpPageView() {
 
   return (
     <>
-      <main className={classes.mainDiv}>
+      <main className={clsx(classes.mainDiv)}>
         <div className={classes.subMainDiv}>
           <Container>
             <div className={classes.subDiv}>

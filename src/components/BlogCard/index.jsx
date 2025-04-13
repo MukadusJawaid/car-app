@@ -7,8 +7,11 @@ import { SiReadme } from "react-icons/si";
 export default function BlogCard({ data, onClick }) {
   return (
     <div className={classes.blogDiv}>
-      <div className={classes.imageDiv}>
-        <Image src={data?.image} fill alt={"blog-image"} />
+      <div className={classes.blogSection}>
+        <div className={classes.overLay} />
+        <div className={classes.imageDiv}>
+          <Image src={data?.image} fill alt={"blog-image"} />
+        </div>
       </div>
       <div className={classes.blogDetailDiv}>
         <div className={classes.blogDataDiv}>

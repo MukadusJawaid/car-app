@@ -28,11 +28,7 @@ export default function BlogsPageView() {
           <Col md={12}>
             <Row className="gy-3">
               {BLOGS_DATA?.map((item, index, element) => (
-                <Col
-                  md={12}
-                  lg={element.length - 1 === index ? 12 : 6}
-                  key={index}
-                >
+                <Col md={12} lg={6} key={index}>
                   <AOSWrapper delay={index * 100}>
                     <BlogCard
                       data={item}

@@ -12,11 +12,16 @@
   transition: all 0.5s;
 }
 
-.imageDiv {
-  position: relative;
+.blogSection {
   width: 40%;
-  aspect-ratio: 16 / 9;
   overflow: hidden;
+  aspect-ratio: 16 / 9;
+  position: relative;
+}
+.imageDiv {
+  height: 100%;
+  width: 100%;
+  position: relative;
 }
 .imageDiv img {
   width: 100%;
@@ -31,6 +36,14 @@
 
   flex-direction: column;
   justify-content: space-between;
+}
+
+.overLay {
+  z-index: 1;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.396);
 }
 .blogDataDiv {
   display: flex;

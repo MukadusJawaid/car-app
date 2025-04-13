@@ -9,6 +9,7 @@ import Image from "next/image";
 import TypingAnimation from "../../components/TypingAnimation";
 import Input from "../../components/Input";
 import Button from "../../components/Button";
+import clsx from "clsx";
 
 export default function LoginPageView() {
   const router = useRouter();
@@ -29,26 +30,28 @@ export default function LoginPageView() {
 
   return (
     <>
-      <main className={classes.mainDiv}>
+      <main className={clsx(classes.mainDiv)}>
         <div className={classes.subMainDiv}>
           <Container>
             <div className={classes.subDiv}>
               <Row>
-                <Col md={isMobile ? 0 : 6}>
-                  <div className={classes.leftColumn}>
-                    <Row className="h-100">
-                      <Col md={12}>
-                        <div className={classes.imageDiv}>
-                          <Image
-                            src={"/images/appImages/authImage.jpg"}
-                            fill
-                            alt="SignUpImage"
-                          />
-                        </div>
-                      </Col>
-                    </Row>
-                  </div>
-                </Col>
+                {!isMobile && (
+                  <Col md={6}>
+                    <div className={classes.leftColumn}>
+                      <Row className="h-100">
+                        <Col md={12}>
+                          <div className={classes.imageDiv}>
+                            <Image
+                              src={"/images/appImages/authImage.jpg"}
+                              fill
+                              alt="SignUpImage"
+                            />
+                          </div>
+                        </Col>
+                      </Row>
+                    </div>
+                  </Col>
+                )}
                 <Col md={6}>
                   <div
                     className={

@@ -16,23 +16,22 @@ export const CAR_FEATURES_DATA = [
 export const CAR_CARD_DATA = [
   {
     image: "/images/dummyImages/cardOne.jpg",
-    title: "Lamborghini Revuelto",
+    title: "BMW X3 2025",
     shortDescription:
-      "Dive into the world of the Lamborghini Revuelto, the latest plug-in hybrid supercar that blends electrification with thrilling performance.Discover how Lamborghini is pushing the boundaries of speed and sustainability, with cutting-edge hybrid technology, a powerful V12 engine, and a stunning design that turns heads.",
+      "The 2025 BMW X3 is a luxury SUV that fuses athletic performance with daily practicality. With refined styling, intuitive tech, and an available plug-in hybrid model, it redefines what it means to drive in style and comfort.",
 
-    description: `<b>Lamborghini Revuelto</b> is a groundbreaking hybrid supercar that merges the legacy of Lamborghini’s raw power with future-forward sustainability through electrification. It’s bold, fast, and built to redefine what performance means in a hybrid world.<br /><br />
+    description: `<b>The 2025 BMW X3</b> stands as a testament to <i>versatility and sophistication</i> in the luxury SUV segment. Whether you're navigating city streets or heading out for a weekend adventure, the X3 delivers with a balanced blend of <u>power, agility, and premium comfort</u>.<br /><br />
 
-Dive deep into the exhilarating world of the <b>Lamborghini Revuelto</b> — the latest marvel in automotive engineering that seamlessly blends <b>raw power</b> with <i>progressive electrification</i>. This isn't just another supercar; it's a revolutionary step forward for the brand that redefined performance.<br /><br />
+Under the hood, the X3 offers a variety of engine options—from the fuel-efficient 4-cylinder to the powerful M-tuned models, and even a <b>plug-in hybrid (xDrive30e)</b> for those who want <i>performance without compromise</i>. BMW’s signature xDrive all-wheel-drive system ensures confident handling in all conditions.<br /><br />
 
-At its heart lies a ferocious <b>naturally aspirated V12 engine</b> paired with cutting-edge <i>plug-in hybrid technology</i>. Together, they deliver a jaw-dropping output that not only preserves the iconic Lamborghini roar but does so while embracing the future of sustainable mobility. The Revuelto represents a pivotal moment for Lamborghini, as it marks the company’s transition into the <b>era of hybrid hypercars</b> — without compromising on its heritage of adrenaline-fueled speed.<br /><br />
 
-On the design front, every curve and contour of the Revuelto screams innovation. From the aggressive Y-shaped headlights to its aerodynamic rear diffusers, the car is sculpted for both aesthetics and function. It’s a visual statement of <b>luxury and performance</b>, turning heads whether it's on the street or showcased on the track.<br /><br />
+Step inside, and you're welcomed by a <b>driver-centric cabin</b> filled with refined materials and advanced technology. From the curved digital display and gesture control to the Harman Kardon sound system and customizable ambient lighting, the X3 transforms every trip into a premium experience.<br /><br />
 
-Inside, you’ll find a futuristic cabin wrapped in premium materials, with a cockpit designed to keep the driver fully engaged and in control. An intuitive digital interface, race-inspired seats, and customizable driving modes make the Revuelto as intelligent as it is thrilling.<br /><br />
+Its design is modern and athletic, with a bold kidney grille, sculpted lines, and LED lighting that gives it unmistakable road presence. It’s a vehicle built to perform and designed to impress.<br /><br />
 
-With all-wheel drive, lightning-fast acceleration, and sustainability in its DNA, the <b>Revuelto</b> stands as a symbol of <i>Lamborghini's evolving identity</i> — one that respects its powerful past while pushing boldly into the future.<br /><br />
+With features like <b>BMW’s Intelligent Personal Assistant</b>, advanced driver-assistance systems, and smart connectivity, the BMW X3 keeps you in command at all times.<br /><br />
 
-<a href="https://www.lamborghini.com/en-en/models/revuelto" target="_blank" ; text-decoration: underline;"><b>Explore more on the official Lamborghini site</b></a>`,
+<a href="https://www.bmwusa.com/vehicles/x-models/x3/sports-activity-vehicle/overview.html" target="_blank" style="text-decoration: underline;"><b>Explore the 2025 BMW X3 on the official BMW USA site</b></a>`,
   },
   {
     image: "/images/dummyImages/cardTwo.jpg",
@@ -48,21 +47,7 @@ Inside, you’re welcomed by a sleek digital cockpit paired with traditional dri
 
 <a href="https://www.porsche.com/international/models/911/911-gts-models/911-carrera-gts/" target="_blank"  text-decoration: underline;"><b>Discover the full specs on Porsche’s official page</b></a>`,
   },
-  {
-    image: "/images/dummyImages/cardThree.jpg",
-    title: "The Porsche GT3",
-    shortDescription:
-      "The Porsche GT3 is a symphony of speed, precision, and pure driving emotion. Designed for those who crave the thrill of the track, yet engineered to excel on everyday roads, the GT3 embodies Porsche's relentless pursuit of performance perfection.",
-    description: `The <b>Porsche GT3</b> is the epitome of <b>track-bred engineering</b> fused with <i>real-world drivability</i>. It’s not just a car — it’s a high-performance machine designed for those who live for every curve, corner, and full-throttle straightaway.<br /><br />
 
-Under its sculpted hood lies a naturally aspirated <b>4.0-liter flat-six engine</b> that roars with purpose, delivering razor-sharp acceleration and an exhaust note that thrills the senses. Paired with a lightweight chassis, rear-wheel drive, and advanced suspension dynamics, the GT3 provides <i>pinpoint precision</i> and <b>track-level feedback</b> in every drive.<br /><br />
-
-The aerodynamic design, featuring a bold rear wing and race-derived front fascia, isn’t just for show — it's engineered for optimal downforce and cooling. Step inside and you're greeted with a <i>minimal yet immersive cockpit</i>, complete with Alcantara finishes, a motorsport-inspired steering wheel, and driver-centric digital displays.<br /><br />
-
-Whether carving corners at the Nürburgring or cruising your favorite backroads, the <b>Porsche GT3</b> is an emotional extension of the driver, built for those who crave <b>raw connection and relentless performance</b>.<br /><br />
-
-<a href="https://www.porsche.com/international/models/911/911-gt3-models/911-gt3/" target="_blank" style="text-decoration: underline;"><b>Explore more about the GT3 on Porsche's official site</b></a>`,
-  },
   {
     image: "/images/dummyImages/cardFour.jpg",
     title: "Aston Martin Valhalla 2022",
@@ -82,6 +67,21 @@ The Valhalla isn’t just a car; it's a <b>vision of Aston Martin’s electrifie
 <a href="https://www.astonmartin.com/en/models/valhalla" target="_blank" style="text-decoration: underline;"><b>Learn more on Aston Martin's official Valhalla page</b></a>`,
   },
   {
+    image: "/images/dummyImages/cardThree.jpg",
+    title: "The Porsche GT3",
+    shortDescription:
+      "The Porsche GT3 is a symphony of speed, precision, and pure driving emotion. Designed for those who crave the thrill of the track, yet engineered to excel on everyday roads, the GT3 embodies Porsche's relentless pursuit of performance perfection.",
+    description: `The <b>Porsche GT3</b> is the epitome of <b>track-bred engineering</b> fused with <i>real-world drivability</i>. It’s not just a car — it’s a high-performance machine designed for those who live for every curve, corner, and full-throttle straightaway.<br /><br />
+
+Under its sculpted hood lies a naturally aspirated <b>4.0-liter flat-six engine</b> that roars with purpose, delivering razor-sharp acceleration and an exhaust note that thrills the senses. Paired with a lightweight chassis, rear-wheel drive, and advanced suspension dynamics, the GT3 provides <i>pinpoint precision</i> and <b>track-level feedback</b> in every drive.<br /><br />
+
+The aerodynamic design, featuring a bold rear wing and race-derived front fascia, isn’t just for show — it's engineered for optimal downforce and cooling. Step inside and you're greeted with a <i>minimal yet immersive cockpit</i>, complete with Alcantara finishes, a motorsport-inspired steering wheel, and driver-centric digital displays.<br /><br />
+
+Whether carving corners at the Nürburgring or cruising your favorite backroads, the <b>Porsche GT3</b> is an emotional extension of the driver, built for those who crave <b>raw connection and relentless performance</b>.<br /><br />
+
+<a href="https://www.porsche.com/international/models/911/911-gt3-models/911-gt3/" target="_blank" style="text-decoration: underline;"><b>Explore more about the GT3 on Porsche's official site</b></a>`,
+  },
+  {
     image: "/images/dummyImages/carFive.jpg",
     title: "Audi Skysphere",
     shortDescription:
@@ -97,6 +97,24 @@ Inside, the Skysphere is a fusion of comfort, luxury, and innovation, featuring 
 The Audi Skysphere isn't just a glimpse into the future — it's a reality that offers insight into what the future of luxury electric vehicles will look like.<br /><br />
 
 <a href="https://www.audi.com/en/innovation/technologies/audi-skyphere.html" target="_blank" style="text-decoration: underline;"><b>Discover more about the Audi Skysphere on the official Audi site</b></a>`,
+  },
+  {
+    image: "/images/dummyImages/cardSeven.jpg",
+    title: "BMW 7 Series 2025",
+    shortDescription:
+      "The 2025 BMW 7 Series redefines modern luxury with bold design, advanced tech, and electrified performance. From its cinematic rear seat experience to dynamic driving capability, it's the ultimate expression of prestige and innovation.",
+
+    description: `<b>The 2025 BMW 7 Series</b> is a flagship sedan that blends <i>opulence with intelligence</i>, engineered for those who demand both performance and pampering. As BMW’s most luxurious offering, it pushes boundaries with stunning aesthetics, smart features, and future-forward powertrains.<br /><br />
+
+Built on BMW’s CLAR platform, the new 7 Series offers a range of engines, including the all-electric <b>i7 variant</b>, plug-in hybrids, and turbocharged gas models. No matter your choice, <u>ride quality, precision handling</u>, and silent cabin serenity are guaranteed.<br /><br />
+
+Inside, the cabin feels like a <b>high-tech executive lounge</b>. Rear passengers can enjoy the optional 31.3-inch 8K Theatre Screen, retractable touch controls in the door panels, and ultra-comfort seating. The driver benefits from BMW’s curved display, powered by the iDrive 8.5 system and voice-controlled personal assistant.<br /><br />
+
+Crafted with attention to detail, the exterior features a bold illuminated kidney grille, split LED headlamps, and sculpted lines that exude authority and elegance. Whether you're driving or being driven, the 7 Series promises an <i>effortless, indulgent journey</i>.<br /><br />
+
+For those seeking ultimate refinement fused with cutting-edge technology, the <b>BMW 7 Series</b> delivers a flagship experience unlike any other.<br /><br />
+
+<a href="https://www.bmwusa.com/vehicles/7-series/sedan/overview.html" target="_blank"><b>Explore the 2025 BMW 7 Series on the official BMW USA site</b></a>`,
   },
   {
     image: "/images/dummyImages/carSix.jpg",
@@ -205,5 +223,29 @@ For a deeper look at real-world efforts, visit <a href="https://www.audi.com/en/
 Ultimately, your choice comes down to your <i>daily driving habits, budget, and access to charging or fueling stations</i>. If you have a short commute and access to home charging, an EV might be ideal. If flexibility is your priority, a hybrid offers that balance.<br /><br />
 
 For more detailed comparisons, check out <a href="https://www.theaa.com/cars/advice/guides/hybrid-vs-electric-cars" target="_blank"><b>AA Cars: Hybrid vs Electric Cars – Which One Is Best for Me?</b></a>`,
+  },
+  {
+    image: "/images/dummyImages/toyota.jpg",
+    date: "2025-04-13",
+    title: "Toyota's hydrogen fuel cell concept vehicle",
+    shortDesc:
+      "Step into the future with Toyota's hydrogen fuel cell concept vehicle, a bold stride toward zero-emission mobility. Showcased in Tokyo, this car reflects Toyota’s vision for sustainable innovation through clean energy and futuristic design.",
+
+    description: `<b>Toyota’s Hydrogen Fuel Cell Concept</b> is a striking example of innovation meeting sustainability. Unveiled at the <i>Megaweb Toyota City Showcase in Tokyo</i>, this concept vehicle is a testament to Toyota’s commitment to pioneering <u>zero-emission technology</u> and redefining the driving experience.<br /><br />
+
+At the core of this concept lies an advanced <b>hydrogen fuel cell system</b>—a clean power source that emits only water vapor while delivering impressive performance. Unlike conventional electric vehicles, hydrogen fuel cells enable faster refueling and longer range, making them a practical and eco-conscious alternative for the future of mobility.<br /><br />
+
+<div style="display: flex; gap: 20px;">
+  <img src="/images/dummyImages/toyota-1.webp" alt="Toyota Hydrogen Engine" style="width: 48%; border-radius: 12px;" />
+  <img src="/images/dummyImages/toyota-engine.webp" alt="Toyota Concept Showcase" style="width: 48%; border-radius: 12px;" />
+</div><br /><br />
+
+Designed with aerodynamic efficiency and futuristic aesthetics, the vehicle blends innovation with Toyota’s longstanding engineering excellence. Its sculpted body, sleek lines, and modern interior reflect a new design language focused on sustainability and user comfort.<br /><br />
+
+Inside, the cabin integrates <b>intelligent connectivity</b> and eco-conscious materials to deliver both luxury and responsibility. The driving interface feels like something out of science fiction, emphasizing <i>driver engagement and intuitive control</i>.<br /><br />
+
+Toyota’s hydrogen concept isn’t just a glimpse into what’s possible — it’s a signal of where the industry is heading. It’s about creating cars that don’t just go fast, but go smart and clean.<br /><br />
+
+<a href="https://www.toyota-europe.com/news/2022/prototype-corolla-cross-hydrogen-concept" target="_blank" style="text-decoration: underline;"><b>Learn more about Toyota’s hydrogen vision</b></a>`,
   },
 ];

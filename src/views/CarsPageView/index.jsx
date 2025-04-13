@@ -33,13 +33,16 @@ export default function CarsPageView() {
                   xs={12}
                   sm={6}
                   md={element?.length - 1 === index ? 12 : 6}
-                  lg={6}
+                  lg={element?.length - 1 === index ? 12 : 6}
                   xl={6}
                   key={index}
                 >
                   <AOSWrapper delay={index * 100}>
                     <CarCard
                       data={item}
+                      imageDiv={
+                        element?.length - 1 === index && classes.cardImage
+                      }
                       onClick={() =>
                         router?.push(`/cars/${generateSlug(item?.title)}`)
                       }
