@@ -4,6 +4,7 @@ import Footer from "@/components/Footer";
 import SideBar from "@/components/SideBar";
 import "aos/dist/aos.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+
 import "./css/color.css";
 import "./css/globals.css";
 import "./css/typography.css";

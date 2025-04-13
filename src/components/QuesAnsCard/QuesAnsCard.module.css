@@ -1,0 +1,109 @@
+.iconDiv {
+  width: 70%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+.iconDiv img {
+  object-fit: cover;
+}
+.iconDiv::before {
+  content: "";
+  background-color: rgba(0, 0, 0, 0.404);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.button {
+  width: fit-content !important;
+  padding: 10px 30px !important
+  ;
+}
+
+.flipCard {
+  perspective: 1000px;
+  background-color: var(--primary-color);
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+}
+
+.flipInner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.6s ease;
+  transform-style: preserve-3d;
+}
+
+.flipped {
+  transform: rotateY(180deg);
+}
+.rightColumn,
+.answer {
+  padding: 30px;
+  gap: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.answer {
+  padding: 30px 100px;
+}
+.rightColumn h4,
+.answer h4 {
+  text-align: center;
+  line-height: 1.5;
+  color: var(--white-color);
+}
+
+.flipFront,
+.flipBack {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flipBack {
+  transform: rotateY(180deg);
+}
+
+@media screen and (max-width: 768px) {
+  .rightColumn {
+    gap: 10px;
+  }
+  .rightColumn h4,
+  .answer h4 {
+    line-height: 1.5;
+  }
+}
+@media screen and (max-width: 500px) {
+  .iconDiv::before,
+  .iconDiv {
+    display: none;
+  }
+  .answer,
+  .rightColumn {
+    gap: 10px;
+  }
+  .answer {
+    padding: 30px;
+  }
+  .rightColumn h4,
+  .answer h4 {
+    line-height: 2;
+  }
+  .rightColumn {
+    padding: 10px 60px;
+    gap: 30px;
+  }
+}

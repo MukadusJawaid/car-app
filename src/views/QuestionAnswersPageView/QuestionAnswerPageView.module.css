@@ -1,0 +1,19 @@
+.iconMainDiv {
+  width: 100px;
+  height: 100px;
+  right: 0px;
+  top: -94px;
+  z-index: 1;
+  position: absolute;
+}
+.questionSection {
+  position: relative;
+}
+
+@media screen and (max-width: 576px) {
+  .iconMainDiv {
+    width: 90px;
+    height: 90px;
+    top: -84px;
+  }
+}

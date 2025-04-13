@@ -257,3 +257,56 @@ export const about_me =
   "<p>As this is a <b><i>personal project</i></b>, I intend to keep working on it and eventually implement dynamic features and real-time data integration. The goal is to build a platform that will eventually allow users to explore cars more interactively and provide an engaging experience for all types of users, from car enthusiasts to others interested in car specifications.</p><br />" +
   "<p><u><b>Icons and favicon used for the website:</b></u></p><br />" +
   "<ul><li><b>Favicon:</b> I used a favicon that aligns with the aesthetic of the site and represents the theme of cars and technology.</li></ul>";
+
+export const carFacts = [
+  {
+    question: "What year was the first automobile invented?",
+    answer:
+      "The first automobile was invented in 1885 by Karl Benz, known as the Benz Patent-Motorwagen.",
+  },
+  {
+    question: "Which car brand produces the world's most expensive car?",
+    answer:
+      "The Bugatti La Voiture Noire, priced at around $18 million, holds the title of the world's most expensive car.",
+  },
+  {
+    question: "What is the fastest production car in the world?",
+    answer:
+      "As of 2021, the Bugatti Chiron Super Sport 300+ is the fastest production car, reaching speeds of 304 mph.",
+  },
+  {
+    question: "How many cars are there in the world today?",
+    answer:
+      "There are approximately 1.4 billion cars on the road globally as of 2020.",
+  },
+  {
+    question: "Which car has the highest horsepower ever recorded?",
+    answer:
+      "The Lotus Evija, with a staggering 1,973 horsepower, is currently the car with the highest horsepower.",
+  },
+  {
+    question: "What car has the most expensive engine in the world?",
+    answer:
+      "The Ferrari 212 E Montagna V8 engine, worth around $5 million, is one of the most expensive car engines in the world.",
+  },
+  {
+    question: "Which car company was the first to mass-produce vehicles?",
+    answer:
+      "The Ford Motor Company, founded by Henry Ford, was the first to mass-produce vehicles in 1908 with the Model T.",
+  },
+  {
+    question: "What is the best-selling car of all time?",
+    answer:
+      "The Toyota Corolla is the best-selling car in history, with over 50 million units sold worldwide since its release in 1966.",
+  },
+  {
+    question: "What is the longest road in the world?",
+    answer:
+      "The Pan-American Highway, stretching from Prudhoe Bay, Alaska, to Ushuaia, Argentina, is the longest road in the world, covering around 19,000 miles.",
+  },
+  {
+    question: "Which country has the most cars per capita?",
+    answer:
+      "Luxembourg has the highest number of cars per capita, with around 700 vehicles for every 1,000 people.",
+  },
+];

@@ -2,7 +2,7 @@
   width: 100%;
   padding: 30px 40px;
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
   position: fixed;
   z-index: 9999;
 }

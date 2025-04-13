@@ -20,7 +20,7 @@ export const navData = [
   },
   {
     label: "Do You Know",
-    route: "/doYouKnow",
+    route: "/ques-ans",
   },
 ];
 

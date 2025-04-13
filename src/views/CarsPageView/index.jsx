@@ -31,7 +31,7 @@ export default function CarsPageView() {
               {CAR_CARD_DATA?.map((item, index, element) => (
                 <Col
                   xs={12}
-                  sm={6}
+                  sm={element?.length - 1 === index ? 12 : 6}
                   md={element?.length - 1 === index ? 12 : 6}
                   lg={element?.length - 1 === index ? 12 : 6}
                   xl={6}

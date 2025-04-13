@@ -79,6 +79,12 @@
   height: 100%;
   transform: translateY(0);
 }
+@media screen and (max-width: 1025px) {
+  .mainDiv::after,
+  .mainDiv:hover::after {
+    display: none;
+  }
+}
 
 @media screen and (max-width: 768px) {
   .imageDiv {
@@ -89,9 +95,5 @@
   }
   .body span {
     font-size: 14px;
-  }
-
-  .mainDiv:hover::after {
-    display: none;
   }
 }
